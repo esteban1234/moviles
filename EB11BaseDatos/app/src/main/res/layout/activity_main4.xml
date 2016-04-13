@@ -22,12 +22,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Matricula"
-        android:id="@+id/textM"
+        android:id="@+id/txtDatos"
+        android:layout_marginTop="151dp"
         android:layout_below="@+id/textMostrar"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="40dp" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,8 +34,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Nombre"
         android:id="@+id/textN"
-        android:layout_alignBottom="@+id/textM"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/textMostrar"
+        android:layout_alignRight="@+id/textMostrar"
+        android:layout_alignEnd="@+id/textMostrar"
+        android:layout_marginTop="54dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,4 +48,14 @@
         android:layout_alignTop="@+id/textN"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Matricula"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textN"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

@@ -16,7 +16,9 @@
         android:text="Agregar Estudiante"
         android:id="@+id/btnAgregar"
         android:layout_marginTop="49dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="registrar"
+        android:nestedScrollingEnabled="false" />
 
     <Button
         android:layout_width="match_parent"
@@ -25,7 +27,8 @@
         android:id="@+id/btnCalificar"
         android:layout_below="@+id/btnAgregar"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp" />
+        android:layout_marginTop="35dp"
+        android:onClick="calificar" />
 
     <Button
         android:layout_width="match_parent"
@@ -33,5 +36,7 @@
         android:text="Mostrar"
         android:id="@+id/btnMostrar"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:nestedScrollingEnabled="false"
+        android:onClick="mostrar" />
 </RelativeLayout>
